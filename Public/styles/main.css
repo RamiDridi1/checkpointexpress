@@ -1,0 +1,71 @@
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting default font family and color */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Page content styling */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Styling individual pages */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 10px 0;
+    }
+}

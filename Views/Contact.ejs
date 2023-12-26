@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/services">Our Services</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Contact Us for Inquiries!</h1>
+        
+        <p>Get in touch with us for any questions or queries.</p>
+        <form action="/submit-contact" method="post">
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="footer">
+        &copy; 2023 checkpoint. All Rights Reserved.
+    </div>
+</body>
+</html>
